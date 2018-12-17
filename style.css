@@ -1,113 +1,11 @@
-
 body
 {
-    display:flex;
-    flex-direction:column;
-    text-align:center;
     background-color:white;
+    padding-top:56px;
     
 }
 
-#navbar{
-    position:fixed;
-    top: 0px;
-    height: 50px;
-    width: 100%;
-    list-style-type: none;
-    border: 0px solid #e7e7e7;
-    background-color: rgba(0, 0, 0, 0.80);
-    margin: 0px;
-    padding: 0px;
-    text-align:center;
-    color:white;
-    
-    
-}
-
-.nav {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 16px;
-    
-    
-}
-
-
-
-
-div
+.titre
 {
     height: 830px;
-    color:white;
-    
-}
-
-.conteneur
-{
-    font-size: 20px;
-    font-weight:bold;
-    background-color:black;
-    margin-bottom:20px;
-    
-    
-}
-
-.conteneur1
-{
-    font-size: 20px;
-    font-weight:bold;
-    background-color:black;
-    margin-bottom:20px;
-    margin-top:50px;
-}
-
-#nom
-{
-    
-    text-transform:capitalize;
-    background-color:#141414;
-    padding-top:80px;
-    margin-left:0px;
-    
-    
-    
-}
-
-#name
-{
-    font-size:50px;
-    font-weight:bold;
-    text-transform:capitalize;
-}
-
-#follow
-{
-    margin-top:400px;
-}
-#experience
-{
-    
-    padding-top:80px;
-}
-
-#competences
-{
-    
-    padding-top:80px;
-}
-
-#formation
-{
-    padding-top:80px;
-}
-
-a:visited
-{
-    color:rgba(255,255,255,1);
-}
-
-a:hover
-{
-    color:hotpink;
-    text-decoration:none;
 }

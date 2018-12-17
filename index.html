@@ -2,53 +2,57 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-            <meta charset="UTF-8">
-                <link rel="stylesheet" type="text/css" href="style.css">
-                    <title>Site CV</title>
-                    </head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Site CV</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--Load Bootstrap css-->
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+            <!--load font awesome-->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        
+    </head>
     <body>
-        <ul id="navbar">
-            <li class="nav"><a href="#nom">Accueil</a></li>
-            <li class="nav"><a href="#experience">Expérience</a></li>
-            <li class="nav"><a href="#competences">Compétences</a></li>
-            <li class="nav"><a href="#formation">Formation</a></li>
-        </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" class="fixed-top">
+            <a class="navbar-brand badge badge-primary" href="#">Site BootStrap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Accueil <span class="sr-only"></span></a>
+                    <a class="nav-item nav-link " href="comp/index.html">Composants</a>
+                    <!-- <a class="nav-item nav-link " href="#">Features</a>
+                     <a class="nav-item nav-link" href="#">Pricing</a>
+                     <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown button
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
         
-        <div class="conteneur1">
-            <div id="nom">
-                <p id="name">florian sejnera</p>
-                <p>Étudiant Informatique<br><br /></p>
-                <p id="follow"> Suivez-moi sur les réseaux : </p>
-            </div>
-        </div>
-        <div class="conteneur">
-            <div id="conteneure">
-                <p id="experience">Mon  expérience</p>
-                <ul>
-                    <li>1999 : Naissance</li>
-                    <li>De 1999 à maintenant : école de la vie :)</li>
-                </ul>
-            </div>
-        </div>
-        <div class="conteneur">
-            <div id="conteneurc">
-                <p id="competences">Mes compétences</p>
-                <ul>
-                    <li>Développement Web</li>
-                    <li>Développement en C</li>
-                </ul>
-            </div>
-        </div>
-        <div class="conteneur">
-            <div id="conteneurf">
-                <p id="formation">Ma formation</p>
-                <p>Bachelor Informatique à Ynov, Aix-En-Provence</p>
-            </div>
-        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Accueil</li>
+            </ol>
+        </nav>
         
-        <footer></footer
+      <p> Cliquez sur "Composants" pour accéder à la page des composants</p>
+        
+        
     </body>
 </html>
-
-
-
