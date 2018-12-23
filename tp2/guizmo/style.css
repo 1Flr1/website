@@ -101,6 +101,12 @@ img.ri
     padding-bottom:5px;
 }
 
+.navbar-dark .navbar-nav .nav-link
+{
+    color:white;
+}
+
+
 .dropdown
 {
     margin-right: 0;

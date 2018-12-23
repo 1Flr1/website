@@ -111,6 +111,11 @@ img.ri
     margin-top: 0;
 }
 
+.navbar-dark .navbar-nav .nav-link
+{
+    color:white;
+}
+
 #batterie
 {
     background-image:url(img/damsofaible.jpg);
