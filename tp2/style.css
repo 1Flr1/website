@@ -1,0 +1,111 @@
+body
+{
+    padding-top:58px;
+}
+
+.navbar
+{
+    background-color: rgba(0,0,0,0.95);
+    height:59px;
+    
+}
+
+.navbar .collapse a:visited{
+    
+    color:grey;
+}
+
+.navbar .collapse a:visited.active
+{
+    color:white;
+}
+
+h1
+{
+    text-align:center;
+}
+
+h2
+{
+    text-align:center;
+}
+
+
+.col-sm-6
+{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.card
+{
+    
+    margin-bottom:10px;
+    padding-left:0px;
+    padding-right:0px;
+   
+}
+
+.elementg
+{
+    margin-right:5px;
+}
+
+.elementd
+{
+    margin-left:5px;
+}
+
+img.ri
+{
+    max-height:100%;
+    max-width:100%;
+    border-radius:3px;
+}
+
+.row
+{
+    margin-right:0px;
+    margin-left:0px;
+}
+
+
+.buttonnav
+{
+    background-color:#007bff;
+    display:inline-block;
+    line-height: 1;
+}
+
+.navbar-nav .nav-link {
+    
+    margin-right: 0;
+    margin-left: auto;
+    
+    
+}
+
+.navbar-nav
+{
+    background-color: #0D0D0D;
+    border-radius:3px;
+    padding-right:10px;
+    padding-bottom:5px;
+}
+
+.dropdown
+{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+    color:white;
+}
+
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+    margin-top: 0;
+}

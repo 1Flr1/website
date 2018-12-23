@@ -1,0 +1,125 @@
+
+body
+{
+    padding-top:58px;
+}
+
+.navbar
+{
+    background-color: rgba(0,0,0,0.95);
+    height:59px;
+    
+}
+
+.navbar .collapse a:visited{
+    
+    color:#494949;
+}
+
+.navbar .collapse a:visited.active
+{
+    color:white;
+}
+
+h1
+{
+    text-align:center;
+}
+
+h2
+{
+    text-align:center;
+}
+
+.col-sm-12
+{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.card
+{
+    
+    margin-bottom:10px;
+    padding-left:0px;
+    padding-right:0px;
+    height:700px;
+    
+}
+
+.elementg
+{
+    margin-right:5px;
+}
+
+.elementd
+{
+    margin-left:5px;
+}
+
+img.ri
+{
+    display:block;
+    max-height:100%;
+    max-width:100%;
+    border-radius:3px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:150px;
+    margin-bottom:150px;
+    
+}
+
+.row
+{
+    margin-right:0px;
+    margin-left:0px;
+    
+}
+
+.buttonnav
+{
+    background-color:#007bff;
+    display:inline-block;
+    line-height: 1;
+}
+
+.navbar-nav .nav-link {
+    
+    margin-right: 0;
+    margin-left: auto;
+    
+    
+}
+
+.navbar-nav
+{
+    background-color: #0D0D0D;
+    border-radius:3px;
+    padding-right:10px;
+    padding-bottom:5px;
+}
+
+.dropdown
+{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+    margin-top: 0;
+}
+
+#morale2
+{
+    background-image:url(img/romeo2.jpg);
+    background-position:center;
+}
+
+#morale2luxe
+{
+    background-image:url(img/romeo2luxe.jpg)
+}
+
