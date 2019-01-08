@@ -52,7 +52,7 @@ body
 
 .navbar-nav
 {
-    background-color: white;
+    background-color: #f8f9fa !important;
     border-radius:3px;
     padding-right:10px;
     padding-bottom:5px;
@@ -63,3 +63,4 @@ body
     margin-right: 0;
     margin-left: auto;
 }
+
